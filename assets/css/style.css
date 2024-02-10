@@ -92,7 +92,7 @@
 .ctact h3{
     color: #fff;
     font-size: 1em;
-    text-transform: uppercase;
+    text-transform: none;
     text-align: center;
     font-weight: 500;
     line-height: 1.4em;
@@ -152,7 +152,33 @@
     margin-top: 10px;
     border-bottom: 1px solid white;
 }
-.skill h3{
+.skill ul{
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin-top: 10px;
+}
+.lan{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+.lan h2{
+    color: #fff;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+}
+.lan h3{
     color: #fff;
     font-size: 1em;
     text-transform: uppercase;
@@ -160,4 +186,35 @@
     font-weight: 500;
     line-height: 1.4em;
     margin-top: 10px;
+}
+.exp{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+.exp h2{
+    color: black;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+}
+.exp h3{
+    color: black;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: justify;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-top: 10px;
+}
+.exp li{
+    color: #fff;
+
 }
