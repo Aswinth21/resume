@@ -71,3 +71,35 @@
     font-size: 0.8em;
     font-weight: 300;
 }
+.ctact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+.ctact h2{
+    color: #fff;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+}
+.ctact h3{
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin-top: 10px;
+    
+}
+.ctact h3 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
