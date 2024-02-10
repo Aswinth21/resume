@@ -1,1 +1,37 @@
-/* This is my css file*/
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    margin-left: 175px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px black 100;
+}
+.container .left-column{
+    position: relative;
+    background: #17252a;
+    padding: 50px;
+}
+.container .right-column{
+    position: relative;
+    background: #3aafa9;
+    padding: 50px;
+}
